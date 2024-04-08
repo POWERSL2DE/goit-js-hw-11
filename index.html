@@ -10,12 +10,20 @@
     <script type="module" crossorigin src="/goit-js-hw-11/commonHelpers.js"></script>
     <link rel="modulepreload" crossorigin href="/goit-js-hw-11/assets/vendor-8c59ed88.js">
     <link rel="stylesheet" href="/goit-js-hw-11/assets/vendor-1cd1f9d9.css">
-    <link rel="stylesheet" href="/goit-js-hw-11/assets/index-89a03cd1.css">
+    <link rel="stylesheet" href="/goit-js-hw-11/assets/index-dd837780.css">
   </head>
 
   <body>
 
-    <form class="form">
+    <div class="preloader">
+      <div class="preloader__row">
+        <p>load</p>
+        <div class="preloader__item"></div>
+        <div class="preloader__item"></div>
+      </div>
+    </div>
+
+    <form class="form" autocomplete="off">
       <input 
       type="text" 
       class="input" 
@@ -29,6 +37,7 @@
     <span class="loader visible"></span>
     <ul class="gallery"></ul>
 
+    
     <header class="header">
 
   <nav class="nav">
@@ -49,6 +58,6 @@
 
     
     
+    
   </body>
-
 </html>
