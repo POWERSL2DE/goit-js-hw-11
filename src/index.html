@@ -11,7 +11,15 @@
 
   <body>
 
-    <form class="form">
+    <div class="preloader">
+      <div class="preloader__row">
+        <p>load</p>
+        <div class="preloader__item"></div>
+        <div class="preloader__item"></div>
+      </div>
+    </div>
+
+    <form class="form" autocomplete="off">
       <input 
       type="text" 
       class="input" 
@@ -25,9 +33,10 @@
     <span class="loader visible"></span>
     <ul class="gallery"></ul>
 
+    
     <load ="partials/header.html"/>
     <script type="module" src="./main.js"></script>
-    
+    <script type="module" src="./js/pixabay-api.js"></script>
+    <script type="module" src="./js/render-functions.js"></script>
   </body>
-
 </html>
